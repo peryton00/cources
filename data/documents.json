@@ -1,0 +1,79 @@
+{
+  "title": "Premium documents",
+  "description": "High-impact playbooks, SOPs, and templates for your team.",
+  "items": [
+    {
+      "id": "doc-product-playbook",
+      "name": "Product Operations Playbook",
+      "typeLabel": "Strategic guide",
+      "summary": "A 110-page playbook covering roadmap governance, stakeholder rituals, and GTM alignment blueprints.",
+      "thumbnail": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80",
+      "meta": {
+        "pages": "110 page PDF",
+        "updated": "Revised May 2024",
+        "format": "PDF + XLS toolkit"
+      },
+      "highlights": [
+        "Seven reusable meeting cadence templates",
+        "Quarterly KPI dashboard spreadsheet",
+        "Risk triage decision tree and RACI outline"
+      ],
+      "downloads": [
+        {
+          "label": "Terabox PDF download",
+          "url": "https://www.terabox.com/s/demo-product-playbook"
+        },
+        {
+          "label": "Bonus spreadsheet pack",
+          "url": "https://www.terabox.com/s/demo-product-playbook-extras"
+        }
+      ]
+    },
+    {
+      "id": "doc-brand-kit",
+      "name": "Brand Strategy Starter Kit",
+      "typeLabel": "Template pack",
+      "summary": "A collection of editable canvases, persona boards, and messaging frameworks to accelerate brand positioning projects.",
+      "thumbnail": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80",
+      "meta": {
+        "pages": "34 editable slides",
+        "format": "PPTX + PDF",
+        "size": "28 MB"
+      },
+      "highlights": [
+        "Persona archetype board",
+        "Messaging pillar framework",
+        "Visual language checklist"
+      ],
+      "downloads": [
+        {
+          "label": "Terabox download package",
+          "url": "https://www.terabox.com/s/demo-brand-kit"
+        }
+      ]
+    },
+    {
+      "id": "doc-security-checklist",
+      "name": "SaaS Security Compliance Checklist",
+      "typeLabel": "Compliance toolkit",
+      "summary": "Practical SOC 2 & ISO 27001 readiness checklist with automated scoring sheets and remediation planner.",
+      "thumbnail": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+      "meta": {
+        "pages": "62 page workbook",
+        "updated": "April 2024",
+        "format": "Google Sheets + PDF"
+      },
+      "highlights": [
+        "Gap analysis dashboard",
+        "Vendor risk assessment matrix",
+        "Incident response playcard"
+      ],
+      "downloads": [
+        {
+          "label": "Terabox compliance bundle",
+          "url": "https://www.terabox.com/s/demo-security-checklist"
+        }
+      ]
+    }
+  ]
+}

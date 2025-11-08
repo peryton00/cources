@@ -1,0 +1,80 @@
+{
+  "title": "Courses",
+  "description": "Practical learning tracks with downloadable assets.",
+  "items": [
+    {
+      "id": "course-js-architect",
+      "name": "JavaScript Architect Bootcamp",
+      "typeLabel": "Video course",
+      "tag": "Bestseller",
+      "summary": "Master enterprise-ready JavaScript patterns, async workflows, and deployment-ready tooling with guided labs.",
+      "thumbnail": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
+      "meta": {
+        "duration": "8-week plan",
+        "level": "Intermediate to advanced",
+        "format": "Video + lab projects"
+      },
+      "highlights": [
+        "Includes two real-world architecture case studies",
+        "Performance profiling and refactoring checklists",
+        "Bundled automation scripts and CI templates"
+      ],
+      "downloads": [
+        {
+          "label": "Terabox course package",
+          "url": "https://www.terabox.com/s/demo-js-architect"
+        },
+        {
+          "label": "Bonus assets & templates",
+          "url": "https://www.terabox.com/s/demo-js-architect-assets"
+        }
+      ]
+    },
+    {
+      "id": "course-ux-research",
+      "name": "UX Research Accelerator",
+      "typeLabel": "Instructor-led",
+      "summary": "Build a systematic UX research practice with ready-to-use interview scripts, data dashboards, and reporting frameworks.",
+      "thumbnail": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
+      "meta": {
+        "duration": "6-week cohort",
+        "level": "Beginner friendly",
+        "format": "Workbooks + video walkthroughs"
+      },
+      "highlights": [
+        "Includes 12 interview and survey templates",
+        "Automated analysis spreadsheet powered by formulas",
+        "Executive presentation deck outline"
+      ],
+      "downloads": [
+        {
+          "label": "Terabox course & workbook",
+          "url": "https://www.terabox.com/s/demo-ux-research"
+        }
+      ]
+    },
+    {
+      "id": "course-data-story",
+      "name": "Data Storytelling Studio",
+      "typeLabel": "Self-paced course",
+      "summary": "Learn to transform complex datasets into clear product narratives using visual storytelling patterns and templates.",
+      "thumbnail": "https://images.unsplash.com/photo-1523475472560-d2df97ec485c?auto=format&fit=crop&w=1200&q=80",
+      "meta": {
+        "duration": "4 hours on-demand",
+        "level": "Intermediate",
+        "format": "Video lessons + template library"
+      },
+      "highlights": [
+        "Scalable reporting frameworks for product teams",
+        "Plug-and-play slide deck templates",
+        "Story arcs tailored for data-led narratives"
+      ],
+      "downloads": [
+        {
+          "label": "Terabox master bundle",
+          "url": "https://www.terabox.com/s/demo-data-story"
+        }
+      ]
+    }
+  ]
+}

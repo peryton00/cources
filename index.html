@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Source | Premium Course & Document Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="brand">
+                <span class="brand-icon"><i class="fas fa-graduation-cap"></i></span>
+                <div class="brand-text">
+                    <span class="brand-name">Open Source</span>
+                    <span class="brand-tagline">Curated digital courses & resources</span>
+                </div>
+            </div>
+            <nav class="main-nav" aria-label="Primary">
+                <a href="#catalog" class="nav-link">Catalog</a>
+                <a href="#why-us" class="nav-link">Why trust us</a>
+                <a href="#payment-info" class="nav-link">Payment help</a>
+            </nav>
+            <button class="btn btn-outline" id="viewPurchasesBtn" type="button" aria-haspopup="dialog">
+                <i class="fas fa-unlock"></i>
+                <span>My unlocked items</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container hero-content">
+                <div class="hero-copy">
+                    <p class="status-pill"><i class="fas fa-shield-check"></i> 100% secure checkout & instant access</p>
+                    <h1>Unlock premium knowledge for a flat <span class="highlight">₹199</span>.</h1>
+                    <p class="hero-subtitle">Every course, guide, and exclusive document you see here is hand-picked and hosted with reliable cloud storage. Pay once per item using a PhonePe-style checkout simulation, then instantly access the official Terabox download link.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#catalog">Browse catalog</a>
+                        <button class="btn btn-ghost" type="button" id="howItWorksBtn">See how it works</button>
+                    </div>
+                    <p class="disclaimer">Note: This demo provides mock payment and download flows with example Terabox URLs. Replace these links and integrate a real payment backend before going live.</p>
+                </div>
+                <div class="hero-visual" role="presentation">
+                    <div class="receipt-card" aria-hidden="true">
+                        <div class="receipt-header">
+                            <span class="receipt-brand">PhonePe mock checkout</span>
+                            <span class="receipt-status">Secure • ₹199</span>
+                        </div>
+                        <div class="receipt-body">
+                            <p class="receipt-title">Advanced JavaScript Toolkit</p>
+                            <ul class="receipt-features">
+                                <li><i class="fas fa-shield-check"></i> Sandboxed test environment</li>
+                                <li><i class="fas fa-bolt"></i> Instant unlock</li>
+                                <li><i class="fas fa-cloud-arrow-down"></i> Terabox official link</li>
+                            </ul>
+                        </div>
+                        <div class="receipt-footer">
+                            <span>Total payable</span>
+                            <strong>₹199</strong>
+                        </div>
+                    </div>
+                    <div class="floating-card floating-card--right">
+                        <i class="fas fa-lock-open"></i>
+                        <p>Unlock after payment success</p>
+                    </div>
+                    <div class="floating-card floating-card--left">
+                        <i class="fas fa-file-download"></i>
+                        <p>Download hosted on Terabox</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog" id="catalog">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Discover resources</h2>
+                    <p>Every item below is available for a fixed <strong>₹199</strong>. Choose a course or document, complete the mock PhonePe flow, and immediately receive the Terabox download link.</p>
+                </header>
+
+                <div class="catalog-section" data-json="data/courses.json">
+                    <div class="catalog-heading">
+                        <div>
+                            <h3 class="catalog-title">Courses</h3>
+                            <p class="catalog-subtitle">Practical learning tracks with lifetime cloud access.</p>
+                        </div>
+                        <div class="catalog-count" aria-live="polite">Loading…</div>
+                    </div>
+                    <div class="cards-grid" data-content-slot>
+                        <div class="skeleton-card" aria-hidden="true"></div>
+                        <div class="skeleton-card" aria-hidden="true"></div>
+                        <div class="skeleton-card" aria-hidden="true"></div>
+                    </div>
+                </div>
+
+                <div class="catalog-section" data-json="data/documents.json">
+                    <div class="catalog-heading">
+                        <div>
+                            <h3 class="catalog-title">Premium documents</h3>
+                            <p class="catalog-subtitle">Guides, frameworks, and playbooks to boost your workflow.</p>
+                        </div>
+                        <div class="catalog-count" aria-live="polite">Loading…</div>
+                    </div>
+                    <div class="cards-grid" data-content-slot>
+                        <div class="skeleton-card" aria-hidden="true"></div>
+                        <div class="skeleton-card" aria-hidden="true"></div>
+                        <div class="skeleton-card" aria-hidden="true"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-us" id="why-us">
+            <div class="container why-grid">
+                <article class="why-card">
+                    <i class="fas fa-user-shield why-icon"></i>
+                    <h3>Transparent & upfront pricing</h3>
+                    <p>No hidden fees. Every digital product on Open Source costs a flat ₹199. Replace the PhonePe simulation with your production payment gateway when ready.</p>
+                </article>
+                <article class="why-card">
+                    <i class="fas fa-database why-icon"></i>
+                    <h3>Configurable JSON catalog</h3>
+                    <p>All course and document details are managed in standalone JSON files, making updates low-maintenance and version-control friendly.</p>
+                </article>
+                <article class="why-card">
+                    <i class="fas fa-cloud why-icon"></i>
+                    <h3>Cloud-hosted downloads</h3>
+                    <p>Each resource references its Terabox download link. Swap in your production URLs to provide immediate post-payment access.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="payment-info" id="payment-info">
+            <div class="container">
+                <h2>Payment & unlock flow</h2>
+                <div class="timeline">
+                    <div class="timeline-step">
+                        <div class="timeline-icon"><i class="fas fa-list"></i></div>
+                        <div class="timeline-content">
+                            <h4>Select an item</h4>
+                            <p>Browse the catalog loaded directly from JSON resources. Each listing highlights what you’ll get.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="timeline-content">
+                            <h4>Mock PhonePe payment</h4>
+                            <p>Trigger the simulated PhonePe modal, review the amount (₹199), and confirm the test transaction.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-icon"><i class="fas fa-unlock"></i></div>
+                        <div class="timeline-content">
+                            <h4>Instant unlock</h4>
+                            <p>After success, the download button activates and links directly to the Terabox resource URL.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-box" role="note">
+                    <i class="fas fa-info-circle"></i>
+                    <p>This prototype does not include a live PhonePe integration. Implement secure server-side payment verification before accepting real transactions.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <span class="brand-icon"><i class="fas fa-graduation-cap"></i></span>
+                <span class="brand-name">Open Source</span>
+                <p class="footer-subtext">Prototype storefront for digital course & document delivery.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick links</h4>
+                <ul>
+                    <li><a href="#catalog">Catalog</a></li>
+                    <li><a href="#payment-info">Payment help</a></li>
+                    <li><a href="#why-us">Why trust us</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="mailto:support@example.com">support@example.com</a></li>
+                    <li><a href="tel:+910000000000">+91 00000 00000</a></li>
+                    <li><a href="#" aria-disabled="true">Refund policy (coming soon)</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="currentYear"></span> Open Source. Prototype experience for demonstration purposes only.</p>
+        </div>
+    </footer>
+
+    <!-- Payment Modal -->
+    <div class="modal" id="paymentModal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-backdrop" data-close-modal></div>
+        <div class="modal-dialog" role="document">
+            <button class="modal-close" type="button" data-close-modal aria-label="Close payment modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <header class="modal-header">
+                    <div class="modal-header-text">
+                        <span class="modal-eyebrow">PhonePe Checkout (Simulation)</span>
+                        <h3 id="modalTitle">Confirm payment</h3>
+                    </div>
+                    <div class="modal-logo" aria-hidden="true">
+                        <span class="logo-dot"></span>
+                        <span class="logo-text">PhonePe</span>
+                    </div>
+                </header>
+                <div class="modal-content" id="modalContent">
+                    <!-- Dynamic content rendered by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Purchases Modal -->
+    <div class="modal" id="purchasesModal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-backdrop" data-close-modal></div>
+        <div class="modal-dialog" role="document">
+            <button class="modal-close" type="button" data-close-modal aria-label="Close purchases modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <header class="modal-header">
+                    <div class="modal-header-text">
+                        <span class="modal-eyebrow">Access history</span>
+                        <h3>Unlocked items</h3>
+                    </div>
+                    <div class="modal-logo modal-logo--secondary" aria-hidden="true">
+                        <i class="fas fa-lock-open"></i>
+                    </div>
+                </header>
+                <div class="modal-content" id="purchasesContent">
+                    <p class="empty-state">You haven’t unlocked any items during this session yet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
